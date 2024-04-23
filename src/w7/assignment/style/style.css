@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+body {
+  margin: 0;
+  background-color: #191a1b;
+  /* font-family: "noto sans", "sans-serif"; */
+}
+.container {
+  max-width: 90rem;
+  margin-inline: auto;
+  background-color: aqua;
+}
+.layout {
+  background-color: red;
+}
+.helpcenter {
+  background-color: black;
+  padding-inline: 1.875rem;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 6.1875rem;
+  padding-block: 1.1875rem;
+}
+
+.helpcenter > .helpcenter__menu-group {
+  display: flex;
+  padding-left: 0;
+  margin-block: 0;
+  list-style: none;
+  gap: 0.8rem;
+  font-size: 1.375rem;
+  align-items: center;
+  color: white;
+}
+.menu-group-right {
+  gap: 1rem;
+}
+.title {
+  font-weight: 500;
+}
+.subtitle {
+  border-left: 2px solid #ffffff;
+  padding-left: 0.8rem;
+}
+.btn__submit {
+  border: 1px solid #ffffff;
+  border-radius: 8px 8px 8px 8px;
+  background-color: #191a1b;
+  padding-inline: 1.375rem;
+  padding-block: 0.625rem;
+}
+.btn__sign-in {
+  border-radius: 8px 8px 8px 8px;
+  background-color: #4c5fd5;
+  padding-inline: 2rem;
+  padding-block: 0.625rem;
+}
+.layout {
+  background-color: #dadbf1;
+  padding: 5.625rem 1.875rem 7.1875rem 1.875rem;
+}
+.section-hero {
+  font-size: 4.5rem;
+  font-weight: 400;
+  letter-spacing: -0.2rem;
+  text-align: center;
+}
+.section-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  max-width: 45rem;
+  font-size: 1.25rem;
+}
+.section-search-contents {
+  color: #969696;
+}

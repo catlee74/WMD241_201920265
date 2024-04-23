@@ -10,11 +10,8 @@ body {
 .container {
   max-width: 90rem;
   margin-inline: auto;
-  background-color: aqua;
 }
-.layout {
-  background-color: red;
-}
+
 .helpcenter {
   background-color: black;
   padding-inline: 1.875rem;
@@ -105,4 +102,9 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 0px;
+}
+.main__conetents {
+  background-color: white;
+  display: flex;
+  padding-inline: 1.875rem;
 }

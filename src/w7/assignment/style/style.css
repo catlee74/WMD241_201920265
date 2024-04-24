@@ -151,8 +151,8 @@ body {
   background-color: #000000;
   display: flex;
   padding-inline: 2.5rem;
-  max-width: 90rem;
-  margin-inline: auto;
+  /* max-width: 90rem;
+  margin-inline: auto; */
 }
 .footer-contents {
   color: #ffffff;

@@ -108,9 +108,15 @@ body {
   padding: 0px;
   font-size: 0px;
 }
+.contents {
+  background-color: #ffffff;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
 .main__conetents {
-  background-color: rgb(255, 255, 255);
-  padding-block: 8rem;
+  /* background-color: rgb(255, 255, 255); */
+  /* padding-block: 8rem; */
+  margin-bottom: 4rem;
   padding-inline: 8.6875rem;
   display: flex;
 }

@@ -89,5 +89,16 @@ body {
 }
 .main__sidebar_contents--menu-icon {
   max-width: 0.875rem;
-  margin-left: 8rem;
+  margin-left: 8.5rem;
+}
+.main__sidebar_box {
+  background-color: #f3f2fc;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+.main__sidebar_box-title {
+  color: #10284b;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 0;
 }

@@ -21,7 +21,8 @@ body {
   display: flex;
   padding-block: 1rem;
   padding-inline: 15rem;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 13rem;
   &__left {
     display: flex;
     color: #381fd1;

@@ -23,7 +23,9 @@ body {
   display: flex;
   padding-block: 1rem;
   padding-inline: 15rem;
-  justify-content: space-between;
+  justify-content: center;
+  -moz-column-gap: 13rem;
+       column-gap: 13rem;
 }
 .navigation__left {
   display: flex;

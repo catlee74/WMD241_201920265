@@ -12,6 +12,7 @@ body {
 
 .container {
   margin-inline: auto;
+  max-width: 90rem;
   letter-spacing: 0.5px;
 }
 
@@ -22,7 +23,6 @@ body {
   font-weight: 800;
   display: flex;
   padding-block: 1rem;
-  padding-inline: 15rem;
   justify-content: center;
   -moz-column-gap: 13rem;
        column-gap: 13rem;
@@ -46,4 +46,48 @@ body {
   background-color: #381fd1;
   padding: 0.5rem;
   border-radius: 0.375rem;
+}
+
+.main {
+  display: grid;
+  background-color: #fff;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 4rem;
+  margin-inline: 5rem;
+}
+
+.main__sidebar {
+  color: #4b4b4e;
+}
+.main__sidebar_contents {
+  font-size: 0.875rem;
+}
+.main__sidebar_contents--library {
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.main__sidebar_contents--search {
+  border: 0.125rem solid #acacaf;
+  border-radius: 0.25rem;
+  max-width: 17.5rem;
+  max-height: 2.5rem;
+  padding-inline: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.4rem;
+}
+.main__sidebar_contents--menu {
+  padding-inline: 1.25rem;
+  padding-block: 2.5rem;
+  font-weight: 600;
+}
+.main__sidebar_contents--menu-text-home {
+  color: #381fd1;
+  margin-bottom: 2.5rem;
+}
+.main__sidebar_contents--menu-text {
+  margin-bottom: 2.5rem;
+}
+.main__sidebar_contents--menu-icon {
+  max-width: 0.875rem;
+  margin-left: 8rem;
 }

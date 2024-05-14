@@ -180,7 +180,7 @@ img {
   margin-inline: 7rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-block: 7rem;
+  padding-block: 6rem;
 }
 
 .icon {
@@ -190,6 +190,6 @@ img {
 }
 
 .bottom-text {
-  color: yellow;
+  color: #fedb63;
   font-weight: 700;
 }

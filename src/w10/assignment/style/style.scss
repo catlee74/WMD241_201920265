@@ -7,7 +7,7 @@
 }
 body {
   margin: 0;
-  // background-color: #c9c9c9;
+  background-color: #efefef;
 }
 img {
   display: block;
@@ -55,7 +55,8 @@ img {
   // grid-template-columns: repeat(2, 1fr);
   grid-template-columns: 350px repeat(auto-fit, minmax(280px, 1fr));
   padding-top: 4rem;
-  margin-inline: 7rem;
+  // margin-inline: 7rem;
+  padding-inline: 112px;
 }
 .main__sidebar {
   color: #4b4b4e;

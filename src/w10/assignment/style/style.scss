@@ -171,5 +171,34 @@ img {
 }
 
 .footer {
+  background-color: #10284b;
+}
+.footer-contents {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin-inline: 7rem;
+  padding-top: 7rem;
+  color: #fff;
+  line-height: 200%;
+  gap: 3rem;
+}
+.footer-title {
+  font-size: 14px;
+  font-weight: 900;
+  // margin-bottom: 1rem;
+}
+.bottom {
+  margin-inline: 7rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-block: 7rem;
+}
+.icon {
+  max-width: 2rem;
+  display: flex;
+  gap: 0.75rem;
+}
+.bottom-text {
+  color: yellow;
+  font-weight: 700;
 }

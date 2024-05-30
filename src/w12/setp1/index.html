@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple js</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .container {
+        max-width: 75rem;
+        margin-inline: auto;
+        padding: 3rem;
+        display: grid;
+        background-color: oklch(0.95 0 0);
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: 1fr;
+        /* 세로 길이 같게 해주고 싶으면 grid-auto-rows 1fr 로 설정하면 됨 */
+        /* 가로와 세로값을 완벽히 통제하고 싶음 에프펙트 레시오? 나 픽셀값을 설정해야됨 */
+        gap: 1.5rem;
+      }
+      .card {
+        padding: 1rem;
+        background-color: oklch(0.9 0.2 240);
+        transition: all 300ms ease-in-out;
+      }
+      .card:hover {
+        background-color: oklch(0.9 0.2 120);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">Lorem.</div>
+      <div class="card">Ea, culpa.</div>
+      <div class="card">Ipsam, mollitia incidunt.</div>
+      <div class="card">Libero perspiciatis accusamus incidunt.</div>
+      <div class="card">Dolorem modi cum repellendus neque.</div>
+      <div class="card">
+        Saepe sapiente blanditiis assumenda excepturi placeat!
+      </div>
+      <div class="card">Minima obcaecati libero a enim earum distinctio?</div>
+      <div class="card">
+        Obcaecati animi soluta commodi eos ea! Rem, ducimus.
+      </div>
+      <div class="card">
+        Adipisci earum dolorem nihil, ut laborum reiciendis labore minima.
+      </div>
+      <div class="card">
+        Sit porro veritatis voluptatibus aperiam asperiores cumque blanditiis
+        nam quia.
+      </div>
+    </div>
+  </body>
+</html>
